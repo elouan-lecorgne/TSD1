@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "KgVJ73XP1Xg=",
+  "success": true,
+  "projectFilePath": "/Users/elouanlecorgne/Documents/Poznan/Cours/LINQ/03-LINQ/GoldSavings.App/GoldSavings.App.csproj",
+  "expectedPackageFiles": [
+    "/Users/elouanlecorgne/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/elouanlecorgne/.nuget/packages/microsoft.netcore.app.ref/8.0.13/microsoft.netcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/elouanlecorgne/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.13/microsoft.aspnetcore.app.ref.8.0.13.nupkg.sha512",
+    "/Users/elouanlecorgne/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.13/microsoft.netcore.app.host.osx-arm64.8.0.13.nupkg.sha512"
+  ],
+  "logs": []
+}

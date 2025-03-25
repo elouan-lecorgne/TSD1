@@ -8,11 +8,15 @@ using System.Text.RegularExpressions;
 
 public class Ameba
 {
-	public int simulate(int[] X, int A)
-	{
-	    return default(int);
+	public int simulate(int[] X, int A){
+	    foreach (int gel in X){
+	    	if (gel == A){
+			A *= 2; 
+		}
+	    }
+	    return A;
 	}
-
+	
 	#region Testing code
 	[STAThread]
 	private static Boolean KawigiEdit_RunTest(int testNum, int[] p0, int p1, Boolean hasAnswer, int p2) {

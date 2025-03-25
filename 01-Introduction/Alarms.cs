@@ -8,9 +8,20 @@ using System.Text.RegularExpressions;
 
 public class Alarms
 {
-	public int countAlarms(int[] volume, int S)
-	{
-        return default(int);
+	public int countAlarms(int[] volume, int S){
+	        int reveil = 0;
+	        int i = 0;
+	        int n = volume.Length;
+	
+	        while (S > 0)
+	        {
+	            S -= volume[i];
+	            reveil++;
+	            i = (i + 1) % n; 
+	        }
+	
+	        return reveil;
+
 	}
 
 	#region Testing code
